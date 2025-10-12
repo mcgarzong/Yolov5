@@ -5,14 +5,17 @@ import pandas as pd
 import torch
 import os
 import sys
+from PIL import Image
 
 # Configuración de página Streamlit
 st.set_page_config(
     page_title="Detección de Objetos en Tiempo Real",
-    page_icon="🔍",
+    page_icon="📷",
     layout="wide"
 )
 
+image = Image.open('hablar.jpeg') 
+st.image(image,width=300)
 # Función para cargar el modelo YOLOv5 de manera compatible con versiones anteriores de PyTorch
 @st.cache_resource
 def load_yolov5_model(model_path='yolov5s.pt'):
