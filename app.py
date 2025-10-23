@@ -137,4 +137,6 @@ st.markdown("---")
 st.caption("""
 🧬 **Visor del Mundo Invisible**  
 Desarrollado para revelar lo que se oculta a simple vista.  
-Basado en visión artificial (YOLOv5) y potencia
+Basado en visión artificial (YOLOv5) y potenciado por Streamlit.  
+💫 Creador: Explorador de lo oculto 👁️✨
+""")
